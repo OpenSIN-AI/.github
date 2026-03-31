@@ -55,6 +55,7 @@ Diese Repositories sind der beste Startpunkt, wenn du OpenSIN-AI verstehen wills
 | :--- | :--- |
 | [`dev-setup`](https://github.com/OpenSIN-AI/dev-setup) | öffentliche Setup-, GitHub- und Arbeitsleitfäden |
 | [`.github`](https://github.com/OpenSIN-AI/.github) | Organisationsprofil und Community-Defaults |
+| [`documentation`](https://github.com/OpenSIN-AI/documentation) | Architektur, Installation, Prompt-Standards und Systemwissen |
 
 ### Zentrale System-Repositories
 
