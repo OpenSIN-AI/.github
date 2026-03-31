@@ -63,7 +63,7 @@ Einige wichtige Bereiche im OpenSIN-System sind organisatorisch klar getrennt:
 
 - `OpenSIN` – zentrale Plattformbasis
 - `OpenSIN-backend` – Backend- und Kontrolllogik
-- `cloud-backend` – proprietäre Cloud- und Service-Schicht
+- `OpenSIN-backend` – Backend, Cloud-Logik und Kontrollschicht
 - `documentation` – interne Architektur-, Installations- und Prompt-Dokumentation
 - `website-opensin.ai` – öffentliche Open-Source-Produktfläche
 - `website-my.opensin.ai` – Mitglieder- und Produktzugangsfläche
