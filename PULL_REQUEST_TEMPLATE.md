@@ -13,11 +13,11 @@ Focus on the outcome and why it matters.
 
 ### In scope
 
-- 
+-
 
 ### Out of scope
 
-- 
+-
 
 ## Validation
 
@@ -32,6 +32,12 @@ Validation details:
 
 ```text
 Paste commands, outputs, screenshots, or review notes here.
+```
+
+Testing notes:
+
+```text
+List scenarios checked, edge cases covered, or why no additional tests were needed.
 ```
 
 ## Related issues

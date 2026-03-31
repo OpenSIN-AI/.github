@@ -24,12 +24,17 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: dropdown
     id: audience
     attributes:
       label: Intended audience
       description: Who needs this documentation?
-      placeholder: e.g. new contributors, internal team members, operators, end users
+      options:
+        - New contributors / onboarding
+        - Core team members
+        - Operators / maintainers
+        - End users
+        - Mixed audience
     validations:
       required: true
 

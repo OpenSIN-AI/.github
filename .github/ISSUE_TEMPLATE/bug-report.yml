@@ -27,9 +27,9 @@ body:
       label: Severity
       description: How hard does this bug hit?
       options:
-        - Critical - blocks core flow or breaks production behavior
-        - High - major impact, workaround is poor or missing
-        - Medium - meaningful bug, but work can continue
+        - Critical (P0) - blocks core flow or breaks production behavior
+        - High (P1) - major impact, workaround is poor or missing
+        - Medium (P2) - meaningful bug, but work can continue
         - Low - edge case, polish issue, or low-risk defect
     validations:
       required: true

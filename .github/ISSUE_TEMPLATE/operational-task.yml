@@ -31,6 +31,19 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      description: Optional, but useful for prioritization.
+      options:
+        - No specific deadline
+        - This sprint
+        - This month
+        - Time-sensitive
+    validations:
+      required: false
+
   - type: textarea
     id: objective
     attributes:
