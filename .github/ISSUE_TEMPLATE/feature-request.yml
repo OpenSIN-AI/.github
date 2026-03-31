@@ -1,0 +1,90 @@
+name: Feature request
+description: Propose a new feature, capability, or meaningful improvement.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for new functionality, better workflows, or meaningful product/system improvements.
+
+        Strong requests describe the problem first, then the desired outcome.
+
+  - type: input
+    id: repository
+    attributes:
+      label: Target repository or area
+      placeholder: e.g. OpenSIN, OpenSIN-backend, website-opensin.ai
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What is missing, painful, slow, or currently impossible?
+      placeholder: Describe the problem in concrete terms.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should exist or change?
+      placeholder: Describe the proposed feature or improvement.
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Expected value
+      description: Why is this worth doing?
+      placeholder: Explain impact for users, team operations, quality, speed, or revenue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: In scope / out of scope
+      description: Prevent vague requests by defining boundaries.
+      placeholder: |
+        In scope:
+        - ...
+
+        Out of scope:
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] User can ...
+        - [ ] System supports ...
+        - [ ] Docs or validation updated if needed
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies, risks, or open questions
+      placeholder: Note blockers, risks, linked systems, or unknowns.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I described the problem, not just a vague idea.
+          required: true
+        - label: I included enough detail for planning, prioritization, and review.
+          required: true

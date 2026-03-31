@@ -1,0 +1,82 @@
+name: Operational task
+description: Track governance, maintenance, rollout, migration, setup, or non-feature implementation work.
+title: "[Task]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for concrete work that is not primarily a bug, feature, or documentation request.
+
+        Examples: governance rollout, setup work, repo hygiene, migration, automation housekeeping, standards adoption.
+
+  - type: input
+    id: repository
+    attributes:
+      label: Target repository or area
+      placeholder: e.g. .github, dev-setup, organization-wide rollout
+    validations:
+      required: true
+
+  - type: dropdown
+    id: task_type
+    attributes:
+      label: Task type
+      options:
+        - Governance / standards
+        - Setup / onboarding
+        - Migration / cleanup
+        - Automation / operations
+        - Maintenance / hygiene
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What concrete outcome is needed?
+      placeholder: Describe the desired end state.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why this matters
+      description: Why should this be prioritized?
+      placeholder: Explain impact, urgency, or strategic value.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and constraints
+      placeholder: |
+        Scope:
+        - ...
+
+        Constraints:
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Definition of done
+      placeholder: |
+        - Concrete outcome delivered
+        - Relevant validation complete
+        - Docs/process updated if needed
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is a concrete, trackable task and not just a vague idea.
+          required: true
