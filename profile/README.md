@@ -206,3 +206,9 @@ Wenn du Teil von OpenSIN-AI bist, achte auf diese Basics:
 ## 📚 Documentation
 
 Full documentation: **[docs.opensin.ai](https://docs.opensin.ai)** — 290+ pages covering API Reference, Guides, Tutorials, Integrations, Architecture, and 21 SIN Features cloned from Claude Code.
+
+---
+
+## 📚 Documentation
+
+Full documentation: **[docs.opensin.ai](https://docs.opensin.ai)** — 290+ pages covering API Reference, Guides, Tutorials, Integrations, Architecture, and 21 SIN Features cloned from Claude Code.
