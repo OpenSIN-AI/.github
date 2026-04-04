@@ -55,7 +55,7 @@ Diese Repositories sind der beste Startpunkt, wenn du OpenSIN-AI verstehen wills
 | :--- | :--- |
 | [`dev-setup`](https://github.com/OpenSIN-AI/dev-setup) | öffentliche Setup-, GitHub- und Arbeitsleitfäden |
 | [`.github`](https://github.com/OpenSIN-AI/.github) | Organisationsprofil und Community-Defaults |
-| [`documentation`](https://github.com/OpenSIN-AI/documentation) | Architektur, Installation, Prompt-Standards und Systemwissen |
+| [`documentation`](https://github.com/OpenSIN-AI/OpenSIN-documentation) | Architektur, Installation, Prompt-Standards und Systemwissen |
 
 ### Zentrale System-Repositories
 
@@ -200,3 +200,9 @@ Wenn du Teil von OpenSIN-AI bist, achte auf diese Basics:
 ## Leitgedanke
 
 > OpenSIN-AI baut Systeme, in denen Struktur, Automatisierung, Ownership und Umsetzung zusammengehören.
+
+---
+
+## 📚 Documentation
+
+Full documentation: **[docs.opensin.ai](https://docs.opensin.ai)** — 290+ pages covering API Reference, Guides, Tutorials, Integrations, Architecture, and 21 SIN Features cloned from Claude Code.
