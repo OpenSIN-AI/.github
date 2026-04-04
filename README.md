@@ -34,23 +34,15 @@ When updating org-wide defaults:
 
 - [Organization Profile](https://github.com/OpenSIN-AI)
 - [Dev Setup & Guides](https://github.com/OpenSIN-AI/dev-setup)
-- [Documentation](https://github.com/OpenSIN-AI/OpenSIN-documentation)
-
----
+- [Documentation](https://github.com/OpenSIN-AI/documentation)
 
 ## 📚 Documentation
 
-Full documentation: **[docs.opensin.ai](https://docs.opensin.ai)**
+This repository follows the [Global Dev Docs Standard](https://github.com/OpenSIN-AI/Global-Dev-Docs-Standard).
 
-| Section | Link |
-|---------|------|
-| Getting Started | [Guide](https://docs.opensin.ai/guide/getting-started) |
-| API Reference | [API](https://docs.opensin.ai/api/overview) |
-| Tutorials | [Tutorials](https://docs.opensin.ai/tutorials/agent-basics) |
-| Integrations | [Integrations](https://docs.opensin.ai/integrations/telegram) |
-| Architecture | [Architecture](https://docs.opensin.ai/architecture/overview) |
-| SIN Features | [SIN Features](https://docs.opensin.ai/guide/claude-to-opensin-mapping) |
-| Community | [Discord](https://discord.gg/opensin) |
+For contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+For security policy, see [SECURITY.md](SECURITY.md).
+For the complete OpenSIN ecosystem, see [OpenSIN-AI Organization](https://github.com/OpenSIN-AI).
 
 ---
 
