@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Need a discussion before opening an issue?
-    url: https://github.com/OpenSIN-AI/dev-setup/blob/main/github/github-discussions-readme.md
-    about: Use this guide when the topic is still exploratory, directional, or needs clarification first.
-  - name: Need help with GitHub collaboration flow?
-    url: https://github.com/OpenSIN-AI/dev-setup/blob/main/github/github-collaboration-readme.md
-    about: Read this before opening work items if you need the OpenSIN standard for issues, branches, PRs, and review.
